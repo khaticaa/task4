@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ header{
+    width: 100%;
+    height: 50px;
+    background-color:darkmagenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .hleft{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(130, 29, 29);
+ }
+ .hcenter{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(130, 29, 29);
+ }
+ .hright{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(130, 29, 29);
+ }
+ .container{
+    width: 100%;
+    height: 500px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+ }
+ .cright{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+ }
+ .cleft{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+
+ }
+ .cleft .ctop{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+ }
+ .cleft .cbottom{
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+ }
+ section{
+    width: 100%;
+    height: 300px;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+   
+   justify-content: space-around;
+   align-items: center;
+   gap:40px;
+   flex-wrap: wrap;
+
+ }
+ section div{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+ }
+ nav{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(112, 138, 68);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+ }
+ .nright{
+    width: 300px;
+    height: 130px;
+    background-color: blueviolet;
+ }
+ .nleft{
+    width: 300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+ }
+.nleft .ntop{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(112, 75, 6);
+
+ }
+ .nleft .nbottom{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(112, 75, 6);
+ }
+ footer{
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .right{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(62, 112, 114);
+
+ }
+ .left{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(62, 112, 114);
+ }
